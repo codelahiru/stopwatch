@@ -38,13 +38,13 @@ h2,
 h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 2.6em;
+  font-size: 3.6em;
   text-transform: uppercase;
 }
 
 #seconds,
 #tens {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 button {
@@ -54,7 +54,7 @@ button {
   border: solid 1px var(--white);
   text-decoration: none;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 2.2em;
   padding: 18px 10px;
   width: 180px;
   margin: 10px;
