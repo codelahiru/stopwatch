@@ -9,10 +9,14 @@ window.onload = function () {
     var buttonReset = document.getElementById('button-reset');
     var Interval ;
   
-    buttonStart.onclick = function() {
+    // buttonStart.onclick = function() {
       
-      clearInterval(Interval);
-       Interval = setInterval(startTimer, 10);
+    //   clearInterval(Interval);
+    //    Interval = setInterval(startTimer, 10);
+    // }
+
+    buttonStart.onclick = () => {
+      Interval = setInterval(startTimer, 10);
     }
     
       buttonStop.onclick = function() {
@@ -50,6 +54,5 @@ window.onload = function () {
       if (seconds > 9){
         appendSeconds.innerHTML = seconds;
       }
-    
     }
 }
